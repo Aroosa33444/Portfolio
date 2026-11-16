@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aroosa Ashiq — AI Graduate & Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Aroosa.dev</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="highlight">Aroosa Ashiq</span></h1>
+                <p class="role">AI Graduate | UI/Frontend Developer | Computer Vision</p>
+                <p class="bio">I build scalable computer vision applications and craft seamless frontend experiences.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="images/aroosa.jpg" alt="Aroosa Ashiq">
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Recent BS Artificial Intelligence graduate from Govt. Sadiq College Women University, Bahawalpur. Strong foundation in Python, computer vision, deep learning, and UI development. UI/Frontend Developer for final-year Bird Behavior Tracker project. 3+ years tutoring experience.</p>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">🐍 Python</div>
+                <div class="skill-card">🌐 HTML & CSS</div>
+                <div class="skill-card">🔥 PyTorch</div>
+                <div class="skill-card">👁️ OpenCV</div>
+                <div class="skill-card">⚡ Streamlit</div>
+                <div class="skill-card">🧠 Deep Learning</div>
+                <div class="skill-card">🎯 YOLOv8</div>
+                <div class="skill-card">🎨 UI/UX Design</div>
+                <div class="skill-card">📊 NumPy</div>
+                <div class="skill-card">🗄️ MySQL</div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">🐦</div>
+                    <h3>Specific Bird Behavior Tracker</h3>
+                    <p class="project-role">Role: UI/Frontend Developer</p>
+                    <p>Real-time bird detection & classification using YOLOv8. Built Streamlit web interface for uploading, processing, and visualizing bird videos.</p>
+                    <div class="tags">
+                        <span>Python</span><span>YOLOv8</span><span>OpenCV</span><span>Streamlit</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">🌐</div>
+                    <h3>Personal Portfolio Website</h3>
+                    <p class="project-role">Role: Designer & Developer</p>
+                    <p>Responsive portfolio built with semantic HTML5, CSS Flexbox & Grid, and mobile-first design.</p>
+                    <div class="tags">
+                        <span>HTML5</span><span>CSS3</span><span>Responsive</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Get In Touch</h2>
+            <p>Feel free to reach out for collaborations or opportunities!</p>
+            <div class="contact-info">
+                <p>📍 Bahawalpur, Pakistan</p>
+                <p>📞 +92 3269503268</p>
+                <p>✉️ aroosaashiq51@gmail.com</p>
+            </div>
+            <div class="socials">
+                <a href="https://github.com/aroosaashiq" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/aroosaashiq" target="_blank">LinkedIn</a>
+                <a href="mailto:aroosaashiq51@gmail.com">Email</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Aroosa Ashiq. Designed & Developed with ❤️</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>
